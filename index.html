@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grid Layout with Content</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .yellow {
+        background-color: yellow;
+      }
+
+      .orange {
+        background-color: orange;
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .pink {
+        background-color: pink;
+      }
+
+      .grey {
+        background-color: grey;
+      }
+
+      .skyblue {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 border border-dark yellow" style="height: 470px">
+          <img src="img/img.jpg" height="500px" width="400px" />
+        </div>
+        <div class="col-4 border border-dark">
+          <div class="row border border-dark orange" style="height: 36%">
+            <p>
+              R. A. Mashelkar is an Indian chemical engineer known for promoting
+              innovation & protecting traditional knowledge.
+            </p>
+          </div>
+          <div class="row border border-dark yellow" style="height: 36%">
+            <p>The expert in anything was once a beginner.</p>
+          </div>
+          <div class="row border border-dark" style="height: 68px">
+            <div class="col-4 border border-dark green">
+              <ul>
+                <li>Reading</li>
+                <li>Drawing</li>
+                <li>Coding</li>
+                <li>Music</li>
+                <li>Traveling</li>
+              </ul>
+            </div>
+            <div class="col-4 border border-dark blue">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ryUxrFUk6MY"
+                  title="YouTube video"
+                  width="100%"
+                  height="100%"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-4 border border-dark yellow">
+              <p>A day on Venus is longer than its year!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 border border-dark">
+          <div class="row border border-dark red" style="height: 50%">
+            <h3>Contact Form</h3>
+            <form>
+              <label for="name">Name:</label><br />
+              <input type="text" id="name" name="name" /><br /><br />
+
+              <label for="email">Email:</label><br />
+              <input type="email" id="email" name="email" /><br /><br />
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+          <div class="row border border-dark green" style="height: 50%">
+            <table border="1">
+              <tr>
+                <th>Time</th>
+                <th>Activity</th>
+              </tr>
+              <tr>
+                <td>9:00 AM</td>
+                <td>Study</td>
+              </tr>
+              <tr>
+                <td>11:00 AM</td>
+                <td>Break</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="row border border-dark" style="height: 200px">
+        <div class="col-5 border border-dark">
+          <div class="row border border-dark" style="height: 50%">
+            <div class="col-6 border border-dark yellow">
+              <div class="row mt-4">
+                <div class="col-12">
+                  <h4>Long Paragraph</h4>
+                  <div
+                    class="border p-3"
+                    style="height: 300px; overflow-y: auto"
+                  >
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed non risus. Suspendisse lectus tortor, dignissim sit
+                      amet, adipiscing nec, ultricies sed, dolor. Cras elementum
+                      ultrices diam. Maecenas ligula massa, varius a, semper
+                      congue, euismod non, mi. Proin porttitor, orci nec nonummy
+                      molestie, enim est eleifend mi, non fermentum diam nisl
+                      sit amet erat. Duis semper. Duis arcu massa, scelerisque
+                      vitae, consequat in, pretium a, enim. Pellentesque congue.
+                      Ut in risus volutpat libero pharetra tempor. Cras
+                      vestibulum bibendum augue. Praesent egestas leo in pede.
+                      Praesent blandit odio eu enim. Pellentesque sed dui ut
+                      augue blandit sodales. Vestibulum ante ipsum primis in
+                      faucibus orci luctus et ultrices posuere cubilia Curae;
+                      Aliquam nibh. Mauris ac mauris sed pede pellentesque
+                      fermentum. Maecenas adipiscing ante non diam sodales
+                      hendrerit. Ut velit mauris, egestas sed, gravida nec,
+                      ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar.
+                      Nulla sollicitudin. Fusce varius, ligula non tempus
+                      aliquam, nunc turpis ullamcorper nibh, in tempus sapien
+                      eros vitae ligula. Pellentesque rhoncus nunc et augue.
+                      Integer id felis. Curabitur aliquet pellentesque diam.
+                      Integer quis metus vitae elit lobortis egestas. Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                      vel erat non mauris convallis vehicula. Nulla et sapien.
+                      Integer tortor tellus, aliquam faucibus, convallis id,
+                      congue eu, quam. Mauris ullamcorper felis vitae erat.
+                      Proin feugiat, augue non elementum posuere, metus purus
+                      iaculis lectus, et tristique ligula justo vitae magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 border border-dark orange">
+              <div class="row mt-4">
+                <div class="col-12">
+                  <h4>Long Paragraph</h4>
+                  <div
+                    class="border p-3"
+                    style="height: 300px; overflow-y: auto"
+                  >
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed non risus. Suspendisse lectus tortor, dignissim sit
+                      amet, adipiscing nec, ultricies sed, dolor. Cras elementum
+                      ultrices diam. Maecenas ligula massa, varius a, semper
+                      congue, euismod non, mi. Proin porttitor, orci nec nonummy
+                      molestie, enim est eleifend mi, non fermentum diam nisl
+                      sit amet erat. Duis semper. Duis arcu massa, scelerisque
+                      vitae, consequat in, pretium a, enim. Pellentesque congue.
+                      Ut in risus volutpat libero pharetra tempor. Cras
+                      vestibulum bibendum augue. Praesent egestas leo in pede.
+                      Praesent blandit odio eu enim. Pellentesque sed dui ut
+                      augue blandit sodales. Vestibulum ante ipsum primis in
+                      faucibus orci luctus et ultrices posuere cubilia Curae;
+                      Aliquam nibh. Mauris ac mauris sed pede pellentesque
+                      fermentum. Maecenas adipiscing ante non diam sodales
+                      hendrerit. Ut velit mauris, egestas sed, gravida nec,
+                      ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar.
+                      Nulla sollicitudin. Fusce varius, ligula non tempus
+                      aliquam, nunc turpis ullamcorper nibh, in tempus sapien
+                      eros vitae ligula. Pellentesque rhoncus nunc et augue.
+                      Integer id felis. Curabitur aliquet pellentesque diam.
+                      Integer quis metus vitae elit lobortis egestas. Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                      vel erat non mauris convallis vehicula. Nulla et sapien.
+                      Integer tortor tellus, aliquam faucibus, convallis id,
+                      congue eu, quam. Mauris ullamcorper felis vitae erat.
+                      Proin feugiat, augue non elementum posuere, metus purus
+                      iaculis lectus, et tristique ligula justo vitae magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row border border-dark" style="height: 50%">
+            <div class="col-4 border border-dark skyblue">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28010.01202917289!2d77.2089818!3d28.6129129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2dff54d225f%3A0x27490c36aa205f92!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1629543825242!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen
+                controls="1"
+              >
+              </iframe>
+            </div>
+            <div class="col-4 border border-dark skyblue">
+              <p>
+                Wake up each day with a smile so wide, Let your heart be your
+                guide. Learn, grow, and never fear, Your dreams are always near.
+              </p>
+            </div>
+            <div class="col-4 border border-dark orange">
+              <!DOCTYPE html>
+              <html>
+                <head>
+                  <style>
+                    .my-button {
+                      background-color: #4caf50;
+                      color: white;
+                      padding: 10px 20px;
+                      border: none;
+                      border-radius: 8px;
+                      cursor: pointer;
+                      font-size: 16px;
+                    }
+
+                    .my-button:hover {
+                      background-color: #45a049;
+                    }
+                  </style>
+                </head>
+                <body>
+                  <h3>Click the Button</h3>
+                  <button class="my-button">Click Me</button>
+                </body>
+              </html>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 border border-dark red">
+          <div class="row mt-4">
+            <div class="col-4">
+              <img src="img/image1.jpeg" class="img-thumbnail" alt="Image 1" />
+            </div>
+            <div class="col-4">
+              <img src="img/image2.jpeg" class="img-thumbnail" alt="Image 2" />
+            </div>
+            <div class="col-4">
+              <img src="img/image3.jpeg" class="img-thumbnail" alt="Image 3" />
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-4">
+              <img src="img/image1.jpeg" class="img-thumbnail" alt="Image 1" />
+            </div>
+            <div class="col-4">
+              <img src="img/image2.jpeg" class="img-thumbnail" alt="Image 2" />
+            </div>
+            <div class="col-4">
+              <img src="img/image3.jpeg" class="img-thumbnail" alt="Image 3" />
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-4">
+              <img src="img/image1.jpeg" class="img-thumbnail" alt="Image 1" />
+            </div>
+            <div class="col-4">
+              <img src="img/image2.jpeg" class="img-thumbnail" alt="Image 2" />
+            </div>
+            <div class="col-4">
+              <img src="img/image3.jpeg" class="img-thumbnail" alt="Image 3" />
+            </div>
+          </div>
+        </div>
+        <div class="col-3 border border-dark">
+          <div class="row border border-dark pink" style="height: 33%">
+            <div class="col-12">
+              <h4>Profile</h4>
+              <ul>
+                <li><strong>Name:</strong>Nikita Pawar</li>
+                <li><strong>Age:</strong> 21</li>
+                <li><strong>Country:</strong> India</li>
+                <li><strong>Profession:</strong> Software Engineer</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row border border-dark yellow" style="height: 33%">
+            <div class="row">
+              <div class="col-12">
+                <h4>Top 5 Websites</h4>
+                <ul>
+                  <li>
+                    <a href="https://www.google.com" target="_blank">Google</a>
+                  </li>
+                  <li>
+                    <a href="https://www.wikipedia.org" target="_blank"
+                      >Wikipedia</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.stackoverflow.com" target="_blank"
+                      >Stack Overflow</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.github.com" target="_blank">GitHub</a>
+                  </li>
+                  <li>
+                    <a href="https://www.medium.com" target="_blank">Medium</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row border border-dark grey" style="height: 200px">
+            <div class="col-12 d-flex flex-column">
+              <h4>Journal Entry</h4>
+              <div class="border p-3 overflow-auto flex-grow-1">
+                <p>
+                  Today was a quiet yet fulfilling day. I spent the morning
+                  reading a book on creativity and how small daily habits shape
+                  our future.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
